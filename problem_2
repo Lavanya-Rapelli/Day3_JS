@@ -1,0 +1,14 @@
+/* Problem: Simple Interest Calculation**
+
+1. Define three variables: `principal`, `rate`, and `time`, and assign them appropriate values.
+2. Calculate the simple interest using the formula:`Simple Interest = (principal * rate * time) / 100`
+3. Print the calculated simple interest.
+*/
+
+var principal = 1500;
+var rate = 4;
+var time = 2;
+
+var simpleInterest = (principal * rate * time) / 100;
+
+console.log(simpleInterest);
